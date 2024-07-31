@@ -57,7 +57,7 @@ class CMakeBuild(build_ext):
         subprocess.check_call(['cmake', '--build', '.'] + build_args, cwd=self.build_temp)
 
 
-version = 'dev'
+version = '0.1.0'
 
 commit_var = 'APPVEYOR_REPO_COMMIT'
 tag_name_var = 'APPVEYOR_REPO_TAG_NAME'
